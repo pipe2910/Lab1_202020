@@ -46,6 +46,7 @@ def loadCSVFile (file, lst, sep=";"):
         Borra la lista e informa al usuario
     Returns: None   
     """
+    file = input("Ingrese el nombre del archivo csv: ")
     del lst[:]
     print("Cargando archivo ....")
     t1_start = process_time() #tiempo inicial
